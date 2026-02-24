@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import Run from './Run.jsx'
 import './App.css'
 
 function App() {
@@ -7,8 +7,7 @@ function App() {
 
   return (
     <> 
-      <div class="bg-orange-500"></div>
-      <h1 class="bg-orange-500">hello</h1>
+      <Run />
     </>
   )
 }
